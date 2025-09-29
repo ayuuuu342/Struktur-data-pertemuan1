@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+  struct mahasiswa
+  {
+    string nama;
+     string NIM;
+  };
+  
+
+  int main(){
+    mahasiswa mhs;
+    mhs.nama = "Martin";
+    mhs.NIM = "5673903425";
+
+    cout << "nama : " << mhs.nama << endl
+         <<  "NIM: " << mhs.NIM;
+  }
