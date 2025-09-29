@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+  struct mahasiswa
+  {
+    string nama;
+     string NIM;
+  };
+  
+
+  int main(){
+    mahasiswa mhs;
+    cout << "nama : ";
+    getline(cin, mhs.nama);
+    cout << "NIM: ";
+    getline(cin, mhs.NIM);
+    
+    //opsi saja boleh tidak di pakai
+    cout << "nama : " << mhs.nama << endl 
+         <<  "NIM: " << mhs.NIM;
+  }
