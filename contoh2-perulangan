@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+for (int i = 0; i < 5; i++){ //increment
+    cout << "ayu" << endl;
+}
+cout << endl;
+
+int i = 0;
+while (i < 5)
+{
+    cout << "103112430119" << endl;
+    i++;
+}
+cout << endl;
+
+int j = 0;
+do
+{
+    cout << j;
+} while (j != 0);
+}
